@@ -135,7 +135,7 @@ const initialize_message_hook = () => {
 const handle_edited_message = function () {
     const message = arguments[0];
     message.type = "chat";
-    message.body = `✏️ _Sé ha editado este mensaje, el nuevo mensaje es:_\n*${message?.body || message?.caption}*`;
+    message.body = `✏️ _Sé ha editado este mensaje, el nuevo mensaje es:_\n\n*${message?.body || message?.caption}*`;
     if (!message.protocolMessageKey) {
         return true;
     }
