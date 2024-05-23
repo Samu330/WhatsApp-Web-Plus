@@ -1,7 +1,12 @@
 {
     "name": "WhatsApp-Web-Plus",
-    "version": "1.0.1",
-    "description": "",
+    "version": "1.0.0",
+    "description": "Esta aplicación es una extensión para WhatsApp Web que permite a los usuarios modificar ciertos permisos para mejorar su experiencia de uso. Con esta herramienta, los usuarios podrán ver los mensajes eliminados, los mensajes editados y aquellos mensajes enviados para ser vistos una sola vez. La extensión es 100% legal y funcional, proporcionando una mayor transparencia y control sobre las conversaciones en WhatsApp Web.",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
     "permissions": [
         "storage",
         "activeTab",
