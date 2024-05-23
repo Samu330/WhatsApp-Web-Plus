@@ -1,0 +1,23 @@
+{
+    "name": "WhatsApp-Web-Plus",
+    "version": "1.0.1",
+    "description": "",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "webNavigation",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/*"],
+            "js": [
+                "./index.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "host_permissions" : ["https://web.whatsapp.com/"],
+    "manifest_version": 3,
+    "web_accessible_resources": [{"resources": ["packed.js"], "matches": ["https://web.whatsapp.com/*"]} ]
+}
