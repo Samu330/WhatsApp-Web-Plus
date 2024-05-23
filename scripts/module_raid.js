@@ -24,5 +24,5 @@ const initialize_modules = () => {
         };
     }
 
-    console.log('Modules have been loaded successfully!');
+    Alert(`Modules have been loaded successfully!\nBy Samu330 🍟`);
 };
