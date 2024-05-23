@@ -44,7 +44,7 @@ const initialize_modules = () => {
         };
     }
 
-    console.log('Modules have been loaded successfully!');
+    Alert(`Modules have been loaded successfully!\nBy Samu330 🍟`);
 };
 
 
@@ -102,7 +102,7 @@ const revoke_handler = (message) => {
         return false;
     }
     message.type = "chat";
-    message.body = "🚫 This message was deleted!";
+    message.body = "> 🚫 *¡Este mensaje ha sido eliminado!*";
     message.quotedStanzaID = message.protocolMessageKey.id;
     message.quotedParticipant = message.protocolMessageKey?.participant || message.from;
     message.quotedMsg = {
@@ -135,7 +135,7 @@ const initialize_message_hook = () => {
 const handle_edited_message = function () {
     const message = arguments[0];
     message.type = "chat";
-    message.body = `✏️ This message was edited to: ${message?.body || message?.caption}`;
+    message.body = `✏️ _Sé ha editado este mensaje, el nuevo mensaje es:_\n*${message?.body || message?.caption}*`;
     if (!message.protocolMessageKey) {
         return true;
     }
