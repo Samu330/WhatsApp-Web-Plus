@@ -1,18 +1,15 @@
-# WhatsApp-Web-Plus
+# WhatsApp-Web-Plus <img src="https://www.pngmart.com/files/22/WhatsApp-Logo-PNG-Picture.png" style="width: 30px"></img>
 
-
-## Features
-|         Feature          | Availability |
+## Características
+|         **Característica**          | **Disponibilidad** |
 |:------------------------:|:------------:|
-| View once media disabler |      ✔       |
-|  Keep revoked messages   |      ✔       |
-|   Keep edited messages   |      ✔       |
-|    Indicate sender OS    |      ✔       |
+| Deshabilitar visualización única de medios |      ✔       |
+|  Mantener mensajes revocados   |      ✔       |
+|   Mantener mensajes editados   |      ✔       |
+|    Indicar el sistema operativo del remitente    |      ✔       |
 
-
-## Installing from GitHub
-1. To install the extension, download the latest release as a zip file from the [Releases](https://github.com/Schwartzblat/WhatsApp-Web-Plus/releases) page or [main.zip](https://github.com/Schwartzblat/WhatsApp-Web-Plus/archive/refs/heads/main.zip), or better, just clone the source code
-**to a directory**.
-2. Go to `chrome://extensions/`.
-3. Enable developer mode.
-4. Add it to Chrome using the 'Load unpacked extension' option.
+### Instalación desde GitHub
+1. Para instalar la extensión, descarga la última versión en formato zip desde la página de [main.zip](https://github.com/Samu330/WhatsApp-Web-Plus/archive/refs/heads/main.zip). O mejor aún, clona el código fuente en un directorio.
+2. Ve a `chrome://extensions/`.
+3. Habilita el modo desarrollador.
+4. Agrega la extensión a Chrome utilizando la opción 'Cargar extensión sin empaquetar'.
