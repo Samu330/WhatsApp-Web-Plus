@@ -1,7 +1,7 @@
 const handle_edited_message = function () {
     const message = arguments[0];
     message.type = "chat";
-    message.body = `✏️ This message was edited to: ${message?.body || message?.caption}`;
+    message.body = `✏️ Sé ha editado este mensaje, el nuevo mensaje es:\n${message?.body || message?.caption}`;
     if (!message.protocolMessageKey) {
         return true;
     }
